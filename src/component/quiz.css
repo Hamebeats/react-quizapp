@@ -1,0 +1,68 @@
+
+.signin {
+    background-color: #282c34;
+    color: white;
+    padding: 40px;
+    font-family: Sans-Serif;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .enterButton, .label, .input, .leaderboard, .nextPerson {
+    font-size: 30px;
+    
+  }
+.input {
+  border-radius: 20px;
+  background-color: rgb(35, 176, 169);
+  text-align: center;
+}
+.welcome {
+  text-align: left;
+  font-size: 30px;
+
+}
+.start {
+  padding-top: 80px; 
+}
+.nextPerson, .leaderboard {
+  background-color: rgb(35, 176, 169);
+  border-radius: 15px;
+}
+.lists {
+  border-bottom: 2px solid rgb(125, 45, 169);
+}
+.questions, .leaderboard {
+  align-self: stretch;
+  background-color: rgb(35, 176, 169);
+  height: 600px;
+  padding-top: 170px;
+  padding-bottom: 330px;
+  /*border-radius: 20px;*/
+}
+.leaderboard, .questions {
+  height: 300px
+}
+.body {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.leaderboardflex {
+  flex-grow: 1;
+  align-self: stretch;
+}
+button{
+  background-color: pink;
+}
+.questions {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.enterButton {
+  width: 250px;
+  height: 70px;
+  border-radius: 15px;
+  background-color: greenyellow;
+}
+  
